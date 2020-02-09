@@ -1,6 +1,4 @@
 import React from 'react';
-import moment from "moment";
-import DateCountdown from 'react-date-countdown-timer';
 import dateUtil from "../../utils/date.util";
 import styles from '../timer-component/timer.module.scss'
 
