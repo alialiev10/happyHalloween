@@ -1,0 +1,43 @@
+.timer-wrap {
+  width: 10%;
+  height: auto;
+  color: white;
+  display: flex;
+}
+
+.timer-value {
+  width: 30%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.timer-key {
+  width: 30%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.timer-element {
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.colon {
+  height: auto;
+  font-size: 40px;
+  margin-bottom: 15px;
+
+}
+
+.timer-item {
+  width: 30%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

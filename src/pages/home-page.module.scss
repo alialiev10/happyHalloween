@@ -1,0 +1,47 @@
+.logo {
+  background-image: url(../assets/images/header.png);
+  width: 680px;
+  height: 176px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+.main-wrapper {
+  background-image: url(../assets/images/side-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  background-image: url(../assets/images/background-screen.png);
+}
+
+.tasks {
+  width: 100%;
+  height: 437px;
+  background-image: url(../assets/images/background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding: 50px 50px 50px 130px;
+  box-sizing: border-box;
+}
+
+.spinner {
+  width: 90%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}

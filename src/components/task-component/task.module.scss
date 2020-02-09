@@ -1,0 +1,43 @@
+.task {
+  display: flex;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .task-poster {
+    margin-right: 40px;
+    transform: rotate(15deg);
+
+    img {
+      height: 95px;
+    }
+  }
+
+  .task-description {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 3px 0;
+    width: 49%;
+
+    .task-description-text {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+}
+
+.progress-bar {
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10px;
+}
