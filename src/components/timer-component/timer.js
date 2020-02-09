@@ -9,7 +9,7 @@ const Timer = ({date}) => {
       {
         formattedDate.map(([key, value], index) => {
           return (
-            <div className={styles['timer-wrap']}>
+            <div key={key} className={styles['timer-wrap']}>
               <div className={styles['timer-element']}>
                 <div className={styles['timer-item']}>
                   <div className={styles['timer-value']}>
